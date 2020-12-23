@@ -55,17 +55,17 @@ export default function Home() {
             <img className='h-100 w-98' src='/joyce/joyce.png' alt='' />
           </div>
         </div>
-        <div className='w-3/6'>
-          <div className='bg-gray-200 w-2/3 ml-52 h-full'>
+        <div className='w-3/6 h-screen'>
+          <div className='bg-gray-200 w-2/3 ml-52 -mt-40 pt-14 h-screen'>
             <div className='px-12 py-14'>
               <h1 className='text-brand-brown text-opacity-30 text-5xl font-bold'>
                 Profile
               </h1>
-              <div className='border-b border-brand-brown border-opacity-40 text-brand-brown text-xl'>
+              <div className='border-b border-brand-brown border-opacity-40 text-brand-brown text-xl mt-4'>
                 <p>Igna</p>
                 <h2 className='text-4xl font-semibold -mt-2'>Joyce</h2>
               </div>
-              <div className='flex border-b border-brand-brown border-opacity-40 text-brand-brown py-4'>
+              <div className='flex border-b border-brand-brown border-opacity-40 text-brand-brown py-2'>
                 <div>
                   <p className='text-sm'>Height</p>
                   <div className='flex items-center'>
@@ -87,21 +87,46 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-              <div className="flex text-brand-brown my-4">
+              <div className="flex text-brand-brown py-2">
                 <div>
-                  <p className="mb-4">CURRENT STATUS</p>
-                  <p className="mb-4">BIRTH DATE</p>
-                  <p className="mb-4">NATIONALITY</p>
-                  <p className="mb-4">EXPERIENCE</p>
+                  <p className="mb-2">CURRENT STATUS</p>
+                  <p className="mb-2">BIRTH DATE</p>
+                  <p className="mb-2">NATIONALITY</p>
+                  <p className="mb-2">EXPERIENCE</p>
                 </div>
                 <div className="ml-20">
-                  <p className="mb-4 capitalize">available</p>
-                  <p className="mb-4 ">15/08/94</p>
-                  <p className="mb-4 capitalize">liberian</p>
-                  <p className="mb-4">Intermediate</p>
-
+                  <p className="mb-2 capitalize">available</p>
+                  <p className="mb-2 ">15/08/94</p>
+                  <p className="mb-2 capitalize">liberian</p>
+                  <p className="mb-2">Intermediate</p>
                 </div>
               </div>
+              <div>
+                <h3 className="text-xl font-semibold text-brand-brown">Gallery</h3>
+                <div className="grid grid-cols-4 gap-4 my-4">
+                  <img src="joyce/gallery-3.png"/>
+                  <img src="joyce/gallery-5.png"/>
+                  <img src="joyce/gallery-1.png"/>
+                  <img src="joyce/gallery-4.png"/>
+                </div>
+              </div>
+              <div className="text-brand-brown">
+                 <h3 className="text-xl font-semibold">Gallery</h3>
+              <div className="flex my-4">
+                
+                <div>
+                  <p className="mb-2">BUDAPEST FASHION SHOW</p>
+                  <p className="mb-2">EKO FASHION SHOW</p>
+                  <p className="mb-2">ASHANTE GROUP FASHION SHOW</p>
+                </div>
+                <div className="ml-20">
+                  <p className="mb-2 ">2019</p>
+                  <p className="mb-2 ">2015</p>
+                  <p className="mb-2 capitalize">2013</p>
+                  <p className="mb-2">Intermediate</p>
+                </div>
+              </div>
+             </div>
             </div>
           </div>
         </div>
