@@ -19,15 +19,15 @@ export default function Home() {
       </nav>
 
       <div className='flex'>
-        <div className='w-2/6 text-brand-brown'>
-          <h1 className=' font-black text-8xl'>Black &amp; Beautiful</h1>
+        <div className='w-2/6 text-brand-brown mt-20' >
+          <h1 className=' font-bold text-8xl'>Black&amp; Beautiful</h1>
           <p className='mt-4'>
-            do you need amazing melanin models for you photoshoots modelling
-            events or outing, you just got them waiting right for you.
+            do you need amazing melanin models for you photoshoots <br/> modelling
+            events or outing, you just got them waiting right<br/> for you.
           </p>
           <div className='border-l-2 border-brand-brown h-24 my-6'></div>
           <div className='flex'>
-            <div className='mr-10 -ml-2'>
+            <div className='mr-10 -ml-2 '>
               <div className='text-brand-brown'>
                 <div>
                   <FaFacebookF />
@@ -40,13 +40,13 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className='-mt-8 relative'>
+            <div className='-mt-8 relative '>
               <img
                 className='h-64 relative z-10'
                 src='/joyce/bottom.png'
                 alt=''
               />
-              <div className='w-56 h-96 bg-gray-100 absolute -top-20 left-16'></div>
+              <div className='w-56 h-full bg-gray-100 absolute -top-20 left-16'></div>
             </div>
           </div>
         </div>
@@ -58,28 +58,48 @@ export default function Home() {
         <div className='w-3/6'>
           <div className='bg-gray-200 w-2/3 ml-52 h-full'>
             <div className='px-12 py-14'>
-              <h1 className='text-brand-brown text-opacity-30 text-4xl font-bold'>
+              <h1 className='text-brand-brown text-opacity-30 text-5xl font-bold'>
                 Profile
               </h1>
-              <div className='border-b border-brand-brown border-opacity-40 text-brand-brown '>
+              <div className='border-b border-brand-brown border-opacity-40 text-brand-brown text-xl'>
                 <p>Igna</p>
-                <h2 className='text-2xl -mt-2'>Joyce</h2>
+                <h2 className='text-4xl font-semibold -mt-2'>Joyce</h2>
               </div>
               <div className='flex border-b border-brand-brown border-opacity-40 text-brand-brown py-4'>
                 <div>
                   <p className='text-sm'>Height</p>
                   <div className='flex items-center'>
                     <p>
-                      6 <span className='mt-2'>ft</span>
+                      <span className='text-2xl'>6</span>
+                      <span className='mt-2'>ft</span>
                     </p>
                     <p className='ml-2'>
-                      1 <span className='mt-2'>in</span>
+                      <span className='text-2xl'>1</span>
+                      <span className='mt-2'>in</span>
                     </p>
                   </div>
                 </div>
                 <div className='ml-36'>
-                  <p className='text-sm'>Weight</p>
-                  <p>80</p>
+                  <p className='text-sm '>Weight</p>
+                  <p>
+                   <span className='font-normal text-2xl'>80</span>
+                   <span className='mt-2'>kg</span>
+                  </p>
+                </div>
+              </div>
+              <div className="flex text-brand-brown my-4">
+                <div>
+                  <p className="mb-4">CURRENT STATUS</p>
+                  <p className="mb-4">BIRTH DATE</p>
+                  <p className="mb-4">NATIONALITY</p>
+                  <p className="mb-4">EXPERIENCE</p>
+                </div>
+                <div className="ml-20">
+                  <p className="mb-4 capitalize">available</p>
+                  <p className="mb-4 ">15/08/94</p>
+                  <p className="mb-4 capitalize">liberian</p>
+                  <p className="mb-4">Intermediate</p>
+
                 </div>
               </div>
             </div>
