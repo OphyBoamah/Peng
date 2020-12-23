@@ -1,20 +1,20 @@
-import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaTwitter, FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
 export default function Home() {
   return (
-    <div className='p-16 border-l-10 border-gray-300 h-screen '>
+    <div className='p-16 border-l-10 border-gray-300 h-full '>
       <nav className='flex items-center'>
-        <h2 className='text-brand-brown font-black text-lg'>
+        <h2 className='text-brand-brown font-bold text-xl h-full'>
           Peng <br />
           Models
         </h2>
 
-        <ul className='flex items-center ml-32 uppercase text-brand-brown'>
-          <li className='pr-16'>men</li>
-          <li className='pr-16'>women</li>
-          <li className='pr-16'>children</li>
-          <li className='pr-16'>contact</li>
-          <li className='pr-16'>about us</li>
+        <ul className='flex items-center ml-20 uppercase text-brand-brown relative'>
+          <li className='pr-10'>men</li>
+          <li className='pr-10'>women</li>
+          <li className='pr-10'>children</li>
+          <li className='pr-10'>contact</li>
+          <li className='pr-10'>about us</li>
         </ul>
       </nav>
 
@@ -42,21 +42,21 @@ export default function Home() {
             </div>
             <div className='-mt-8 relative '>
               <img
-                className='h-64 relative z-10'
+                className='h-64 relative z-10 '
                 src='/joyce/bottom.png'
                 alt=''
               />
-              <div className='w-56 h-full bg-gray-100 absolute -top-20 left-16'></div>
+              <div className='w-56 h-full  bg-gray-100 absolute -top-20 left-16 '></div>
             </div>
           </div>
         </div>
-        <div className='w-1/6'>
-          <div className='bg-gray-200'>
-            <img className='h-100 w-98' src='/joyce/joyce.png' alt='' />
+        <div className='w-1/6 -mt-32'>
+          <div className='bg-gray-200 pb-48 w-80'>
+            <img className='h-100 w-100 pt-24 ' src='/joyce/joyce.png' alt='' />
           </div>
         </div>
         <div className='w-3/6 h-screen'>
-          <div className='bg-gray-200 w-2/3 ml-52 -mt-40 pt-14 h-screen'>
+          <div className='bg-gray-200 w-2/3 ml-64 -mt-40 pt-14 h-screen'>
             <div className='px-12 py-14'>
               <h1 className='text-brand-brown text-opacity-30 text-5xl font-bold'>
                 Profile
@@ -123,11 +123,21 @@ export default function Home() {
                   <p className="mb-2 ">2019</p>
                   <p className="mb-2 ">2015</p>
                   <p className="mb-2 capitalize">2013</p>
-                  <p className="mb-2">Intermediate</p>
                 </div>
               </div>
              </div>
             </div>
+          </div>
+          <div className="bg-yellow-200 ml-20 ">
+            <div className="grid grid-cols-7 gap-4 py-5 px-5 -mt-28 -mr-6">
+            <div className="mt-8 text-4xl ml-8"><FaArrowLeft/></div>
+            <img className="w-24" src="/joyce/side-4.png"/>
+            <img className="w-24" src="/joyce/side-1.png"/>
+            <img className="w-24" src="/joyce/side-2.png"/>
+            <img className="w-24" src="/joyce/side-3.png"/>
+            <img className="w-24" src="/joyce/side-5.png"/>
+            <div className="mt-8 text-4xl mr-8"><FaArrowRight/></div>
+        </div>
           </div>
         </div>
       </div>
